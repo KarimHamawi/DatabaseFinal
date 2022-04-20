@@ -1,0 +1,19 @@
+CREATE TABLE user (
+  `id` varchar(100) NOT NULL ,
+  `username` varchar(100) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+
+INSERT INTO user VALUES 
+                       ('D01', 'Charbel', 'asd' ),
+                       ('D02', 'Karim', 'asd' ),
+                       ('D03', 'Charbel', 'asd' ),
+                       ('N01', 'Vlad', 'asd'),
+                       ('N02', 'Joe', 'byeklo'),
+					   ('C01', 'Gay', 'asd'),
+                       ('C02', 'Leo', 'byeklo'),
+                       ('M01', 'zab', 'asd'),
+                       ('M02', 'ert', 'byeklo');
